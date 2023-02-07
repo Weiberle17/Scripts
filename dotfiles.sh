@@ -42,17 +42,17 @@ git submodule update
 # rm -r $HOME/.zsh_aliases
 
 # Comment out the ones you don't want
-# stow -t $HOME -v awesome/
-# stow -t $HOME -v bash/
-# stow -t $HOME -v input/
-# stow -t $HOME -v kitty/
-# stow -t $HOME -v nvim/
-# stow -t $HOME -v rofi/
-# stow -t $HOME -v starship/
-# stow -t $HOME -v tmux/
-# stow -t $HOME -v xfiles/
-# stow -t $HOME -v zathura/
-# stow -t $HOME -v zsh/
+# stow -d $HOME/git/dotfiles/ -t $HOME -v awesome/
+# stow -d $HOME/git/dotfiles/ -t $HOME -v bash/
+# stow -d $HOME/git/dotfiles/ -t $HOME -v input/
+# stow -d $HOME/git/dotfiles/ -t $HOME -v kitty/
+# stow -d $HOME/git/dotfiles/ -t $HOME -v nvim/
+# stow -d $HOME/git/dotfiles/ -t $HOME -v rofi/
+# stow -d $HOME/git/dotfiles/ -t $HOME -v starship/
+# stow -d $HOME/git/dotfiles/ -t $HOME -v tmux/
+# stow -d $HOME/git/dotfiles/ -t $HOME -v xfiles/
+# stow -d $HOME/git/dotfiles/ -t $HOME -v zathura/
+# stow -d $HOME/git/dotfiles/ -t $HOME -v zsh/
 
 # Give Infos about rest of setup
 echo "############################################################################"
