@@ -14,6 +14,7 @@ fi
 # Check if dotfiles repo has been cloned
 if [ -d $HOME/git/dotfiles/ ]; then
   echo "dotfiles"
+  # TODO: Doesn't properly update the right local repo
   cd $HOME/git/dotfiles/
   git pull
 else
