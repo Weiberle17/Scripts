@@ -17,7 +17,7 @@ if [ -d $HOME/git/dotfiles/ ]; then
   cd $HOME/git/dotfiles/
   git pull
 else
-  git clone https://github.com/Weiberle17/dotfiles dotfiles
+  git clone https://github.com/Weiberle17/dotfiles $HOME/git/dotfiles
 fi
 
 # Setup submodules the right way
