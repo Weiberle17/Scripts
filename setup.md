@@ -1,6 +1,6 @@
 # First bootup
 no desktop environments <br>
-just default system utilities
+just default system utilities <br>
 sudo apt install curl snapd autojump neofetch xinit awesome kitty dolphin gcc sddm-theme-debian-breeze firefox-esr zip
 setxkbmap -layout us -variant intl
 ## Nala setup
